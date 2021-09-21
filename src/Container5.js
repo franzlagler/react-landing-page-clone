@@ -32,7 +32,7 @@ const qaContainerMainheading = css`
 `;
 
 const singleqQAContainer = css`
-  flex-basis: 500px;
+  width: 500px;
 `;
 
 const qaQuestionHeading = css`

@@ -43,8 +43,6 @@ const signUpHeading = css`
   margin-bottom: 10px;
 `;
 
-const signUpPara = css``;
-
 const inputContainer = css`
   position: relative;
   height: 50px;
@@ -88,9 +86,7 @@ function Footer() {
       </ul>
       <div css={signUpContainer}>
         <h3 css={signUpHeading}>Be the first to know</h3>
-        <p css={signUpPara}>
-          We’ll inform you about new apps and updates. No spam—we promise.
-        </p>
+        <p>We’ll inform you about new apps and updates. No spam—we promise.</p>
         <form css={inputContainer}>
           <input css={inputField} placeholder="Your email address" />
           <button css={btn}>Subscribe</button>
