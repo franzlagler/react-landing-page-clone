@@ -1,5 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
+import Button from './Components/Button';
 
 const btn = css`
   height: 50px;
@@ -47,20 +48,18 @@ const appleLogoStyle = css`
   margin: auto 0;
   font-size: 30px;
 `;
-function Container1() {
+function Container4() {
   return (
     <div css={container1Style}>
       <div css={contentContainerStyle}>
-        <h1 css={headingStyle}>Every fricking character at your fingertips</h1>
+        <h1 css={headingStyle}>Add Glyphfinder to Your Tool Belt</h1>
         <p css={paraStyle}>
           Glyphfinder is the missing character search for designers, developers
           and writers.
         </p>
         <div css={buttonContainerStyle}>
-          <button border fontSize="20px" css={btn}>
-            Get it now
-          </button>
-          <span css={appleLogoStyle}></span>
+          <button css={btn}>Buy for $6,99</button>
+          <p css={appleLogoStyle}></p>
         </div>
         <p>30-Day Money-Back-Guarantee</p>
       </div>
@@ -68,4 +67,4 @@ function Container1() {
   );
 }
 
-export default Container1;
+export default Container4;
