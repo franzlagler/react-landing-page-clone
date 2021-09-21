@@ -58,9 +58,7 @@ function Container1() {
           and writers.
         </p>
         <div css={buttonContainerStyle}>
-          <button border fontSize="20px" css={btn}>
-            Get it now
-          </button>
+          <button css={btn}>Get it now</button>
           <span css={appleLogoStyle}></span>
         </div>
         <p>30-Day Money-Back-Guarantee</p>

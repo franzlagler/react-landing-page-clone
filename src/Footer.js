@@ -65,7 +65,7 @@ const inputField = css`
     border-radius: 15px;
   }
 `;
-
+// Mistake is to be found in the ul
 function Footer() {
   return (
     <div css={footerContainerStyle}>
@@ -75,9 +75,7 @@ function Footer() {
         <li css={listItems}>Buy</li>
         <li css={listItems}>GitHub</li>
         <li css={listItems}>Support</li>
-        <li css={lastLink}>
-          Made with ❤️ by <a href="https://ueberdosis.io/">überdosis</a>
-        </li>
+        <li css={lastLink}>Made with ❤️ by überdosis</li>
       </ul>
       <ul css={linkList}>
         <li css={listItems}>Press Kit</li>
