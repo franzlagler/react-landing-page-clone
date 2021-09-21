@@ -1,15 +1,18 @@
 import styled from '@emotion/styled';
 
-const Button = styled.button`
-  height: 40px;
-  margin: auto 0;
+const Button = styled.div`
+  display: inline-block;
+  margin: 30px 0 10px 0;
   padding: 10px 15px;
-  background-color: #8d80d1;
-  border: 0;
-  border-radius: 5px;
-  font-size: 16px;
+  background-color: #f2f2f2;
+  border: 3px solid #f2f2f2;
+  border-radius: 10px;
+  font-size: 20px;
   font-weight: bolder;
-  color: white;
+  cursor: pointer;
+  &:hover {
+    border: 3px solid black;
+  }
 `;
 
 export default Button;
