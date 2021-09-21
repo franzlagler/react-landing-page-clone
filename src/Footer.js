@@ -78,7 +78,7 @@ function Footer() {
         <li css={listItems}>GitHub</li>
         <li css={listItems}>Support</li>
         <li css={lastLink}>
-          Made with ❤️ by <a>überdosis</a>
+          Made with ❤️ by <a href="https://ueberdosis.io/">überdosis</a>
         </li>
       </ul>
       <ul css={linkList}>

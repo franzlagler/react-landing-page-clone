@@ -1,6 +1,5 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
-import Button from './Components/Button';
 
 const btn = css`
   height: 50px;
@@ -11,6 +10,7 @@ const btn = css`
   border-radius: 10px;
   font-weight: bolder;
   font-size: 20px;
+  cursor: pointer;
 `;
 
 const container1Style = css`

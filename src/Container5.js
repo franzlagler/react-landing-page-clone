@@ -11,6 +11,7 @@ const btn = css`
   border-radius: 10px;
   font-weight: bolder;
   font-size: 20px;
+  cursor: pointer;
 `;
 
 const Container5Style = css`
@@ -164,7 +165,7 @@ function Container5() {
       </div>
       <div css={mouselessLinkContainer}>
         <h3 css={mouselessHeading}>Have you seen Mouseless?</h3>
-        <p css={mouselessPara}>Unleash your keyboard's superpower -></p>
+        <p css={mouselessPara}>Unleash your keyboard's superpower →</p>
         <img
           src={mouselessBanner}
           alt="Mouseless Banner"

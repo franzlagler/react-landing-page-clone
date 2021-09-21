@@ -10,6 +10,7 @@ const btn = css`
   border-radius: 10px;
   font-weight: bolder;
   font-size: 20px;
+  cursor: pointer;
 `;
 
 const container1Style = css`
