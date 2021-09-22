@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 import mouselessBanner from '../public/mouseless-banner.png';
-import questionsAnswers from './Data/questionsAnswers.js';
+import questionsAnswers from './Data/questionsAnswers';
 
 // Error is onClick!
 
@@ -81,12 +81,12 @@ const mouselessBannerImage = css`
   right: 0;
 `;
 
-function Container5(props) {
+function Container5() {
   return (
     <div css={container5Style}>
       <h2 css={questionContainerMainHeading}>FAQ</h2>
       <div css={questionContainer}>
-        {questionsAnswers.map((el, index) => {
+        {questionsAnswers.map((el) => {
           return (
             <div key={el.heading.trim().toLowerCase()} css={questionContainer}>
               <div css={singleQAContainer}>
