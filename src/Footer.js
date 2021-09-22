@@ -75,7 +75,13 @@ function Footer() {
         <li css={listItems}>Buy</li>
         <li css={listItems}>GitHub</li>
         <li css={listItems}>Support</li>
-        <li css={lastLink}>Made with ❤️ by überdosis</li>
+        <li css={lastLink}>
+          Made with
+          <span role="img" aria-label="heart">
+            &nbsp;❤️&nbsp;
+          </span>
+          by überdosis
+        </li>
       </ul>
       <ul css={linkList}>
         <li css={listItems}>Press Kit</li>
