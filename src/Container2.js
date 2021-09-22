@@ -11,7 +11,6 @@ const container2Style = css`
   padding: 50px 270px;
   background-color: #1f1f1f;
   color: #f0f0f0;
-  cursor: pointer;
 `;
 
 const oneVideoContainerStyle = css`

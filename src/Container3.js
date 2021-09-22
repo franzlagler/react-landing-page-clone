@@ -11,7 +11,6 @@ const container3Style = css`
   padding: 50px 270px;
   background-color: #000;
   color: #f0f0f0;
-  cursor: pointer;
 `;
 
 const factsContainer = css`
